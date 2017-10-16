@@ -1,0 +1,211 @@
+[Executed at: Wed Aug 31 5:30:09 PDT 2016] 
+
+./.vocSubmissionShellScriptInternal_16780.sh: line 11: vocSaveExecutionData: command not found 
+**********************************************************************************************
+THIS IS THE FINAL SUBMISSION SCRIPT. PLEASE MAKE SURE YOU SUBMIT TO THE CORRECT MILESTONE 
+THIS IS THE FINAL SUBMISSION SCRIPT. PLEASE MAKE SURE YOU SUBMIT TO THE CORRECT MILESTONE 
+THIS IS THE FINAL SUBMISSION SCRIPT. PLEASE MAKE SURE YOU SUBMIT TO THE CORRECT MILESTONE 
+THIS IS THE FINAL SUBMISSION SCRIPT. PLEASE MAKE SURE YOU SUBMIT TO THE CORRECT MILESTONE 
+THIS IS THE FINAL SUBMISSION SCRIPT. PLEASE MAKE SURE YOU SUBMIT TO THE CORRECT MILESTONE 
+THIS IS THE FINAL SUBMISSION SCRIPT. PLEASE MAKE SURE YOU SUBMIT TO THE CORRECT MILESTONE 
+THIS IS THE FINAL SUBMISSION SCRIPT. PLEASE MAKE SURE YOU SUBMIT TO THE CORRECT MILESTONE 
+THIS IS THE FINAL SUBMISSION SCRIPT. PLEASE MAKE SURE YOU SUBMIT TO THE CORRECT MILESTONE 
+**********************************************************************************************
+NOTE: Even if your submission checks fail, if you turn in at this screen, files are still collected INTO THE FINAL SUBMISSION MILESTONE. 
+pathfinder.cpp exists in directory 
+actorconnections.cpp exists in directory 
+Makefile exists in directory 
+MISSING REQUIRED FILE: Report.pdf . Be sure to add before your last submission. 
+Compiling ... 
+make: Warning: File `Makefile' has modification time 2.2 s in the future 
+make: warning: Clock skew detected. Your build may be incomplete. 
+Code compiles successfully! (warnings may still exist) 
+Testing 2-node_simple.tsv on pathfinder with u flag ... 
+time taken: 
+real	0m0.019s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+2-node_simple.tsv test PASSED. 
+Testing 3-node_simple.tsv on pathfinder with u flag ... 
+time taken: 
+real	0m0.014s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+3-node_simple.tsv test PASSED. 
+Testing 3-node_3-movie.tsv on pathfinder with u flag ... 
+time taken: 
+real	0m0.010s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+3-node_3-movie.tsv test PASSED. 
+Testing 3-node_3-movie2.tsv on pathfinder with u flag ... 
+time taken: 
+real	0m0.009s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+3-node_3-movie2.tsv test PASSED. 
+Testing medium_weighted_graph.tsv on pathfinder with u flag ... 
+time taken: 
+real	0m0.010s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+medium_weighted_graph.tsv test PASSED. 
+Testing movie_casts_grading.tsv on pathfinder with u flag ... 
+time taken: 
+real	0m0.751s 
+user	0m0.740s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+movie_casts_grading.tsv test PASSED. 
+Testing 2-node_simple.tsv on pathfinder with w flag ... 
+time taken: 
+real	0m0.014s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+2-node_simple.tsv test PASSED. 
+Testing 3-node_simple.tsv on pathfinder with w flag ... 
+time taken: 
+real	0m0.008s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+3-node_simple.tsv test PASSED. 
+Testing 3-node_3-movie.tsv on pathfinder with w flag ... 
+time taken: 
+real	0m0.008s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+3-node_3-movie.tsv test PASSED. 
+Testing 3-node_3-movie2.tsv on pathfinder with w flag ... 
+time taken: 
+real	0m0.009s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+3-node_3-movie2.tsv test PASSED. 
+Testing medium_weighted_graph.tsv on pathfinder with w flag ... 
+time taken: 
+real	0m0.008s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+medium_weighted_graph.tsv test PASSED. 
+Testing movie_casts_grading.tsv on pathfinder with w flag ... 
+time taken: 
+real	0m1.077s 
+user	0m1.068s 
+sys	0m0.000s 
+Exit code is 1 
+Verifying your paths ... 
+movie_casts_grading.tsv test PASSED. 
+Testing 2-node_simple.tsv on actorconnections with the bfs flag ... 
+time taken: 
+real	0m0.019s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Diffing reference with your output: 'diff refOutput yourOutput' 
+2-node_simple.tsv bfs test PASSED 
+Testing 3-node_simple.tsv on actorconnections with the bfs flag ... 
+time taken: 
+real	0m0.010s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Diffing reference with your output: 'diff refOutput yourOutput' 
+3-node_simple.tsv bfs test PASSED 
+Testing 3-node_3-movie.tsv on actorconnections with the bfs flag ... 
+time taken: 
+real	0m0.010s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Diffing reference with your output: 'diff refOutput yourOutput' 
+3-node_3-movie.tsv bfs test PASSED 
+Testing 3-node_3-movie2.tsv on actorconnections with the bfs flag ... 
+time taken: 
+real	0m0.010s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Diffing reference with your output: 'diff refOutput yourOutput' 
+3-node_3-movie2.tsv bfs test PASSED 
+Testing medium_weighted_graph.tsv on actorconnections with the bfs flag ... 
+time taken: 
+real	0m0.010s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Diffing reference with your output: 'diff refOutput yourOutput' 
+medium_weighted_graph.tsv bfs test PASSED 
+Testing movie_casts_grading.tsv on actorconnections with the bfs flag ... 
+time taken: 
+real	0m0.807s 
+user	0m0.784s 
+sys	0m0.012s 
+Exit code is 1 
+Diffing reference with your output: 'diff refOutput yourOutput' 
+movie_casts_grading.tsv bfs test PASSED 
+Testing 2-node_simple.tsv on actorconnections with the ufind flag ... 
+time taken: 
+real	0m0.017s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Number of lines in your paths file (1) does not match the pair file (2) 
+Testing 3-node_simple.tsv on actorconnections with the ufind flag ... 
+time taken: 
+real	0m0.013s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Number of lines in your paths file (1) does not match the pair file (2) 
+Testing 3-node_3-movie.tsv on actorconnections with the ufind flag ... 
+time taken: 
+real	0m0.014s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Number of lines in your paths file (1) does not match the pair file (3) 
+Testing 3-node_3-movie2.tsv on actorconnections with the ufind flag ... 
+time taken: 
+real	0m0.013s 
+user	0m0.012s 
+sys	0m0.000s 
+Exit code is 1 
+Number of lines in your paths file (1) does not match the pair file (3) 
+Testing medium_weighted_graph.tsv on actorconnections with the ufind flag ... 
+time taken: 
+real	0m0.012s 
+user	0m0.000s 
+sys	0m0.000s 
+Exit code is 1 
+Number of lines in your paths file (1) does not match the pair file (3) 
+Testing movie_casts_grading.tsv on actorconnections with the ufind flag ... 
+time taken: 
+real	0m0.136s 
+user	0m0.108s 
+sys	0m0.016s 
+Exit code is 1 
+Number of lines in your paths file (1) does not match the pair file (31) 
+Passed 18 tests out of 24 total tests 
+Final Submission Script Finished 
+Make sure the script says you have all the files correctly submitted. 

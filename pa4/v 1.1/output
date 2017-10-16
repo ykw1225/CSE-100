@@ -1,0 +1,205 @@
+Actor/Actress	Movie	Year
+#of actors in movie_cast file: 5
+#of movies in movie_cast file: 103
+
+Start findPath:
+
+size of queue:1
+
+Start findPath:
+
+	Current(AARON, CAROLINE)
+	Size of movies(42)
+		Movies(WEAPONS OF MASS DISTRACTION)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(CELLULAR)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(BEYOND THE SEA)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(THIS IS MY LIFE)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(BOUNCE)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(LUCKY NUMBERS)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(THE BOYS NEXT DOOR)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(NEVER AGAIN)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(PLANES: FIRE & RESCUE)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(TWO DAYS)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(A MODERN AFFAIR)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(THE PICKLE)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(GRILLED)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(NOBODY'S BABY)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(THE SECRET LIFE OF ZOEY)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(MIXED NUTS)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(LOVE HURTS)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(MEETING SPENCER)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(BIG NIGHT)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(DEAD AND ALIVE: THE RACE FOR GUS FARACE)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(THERE'S NO FISH FOOD IN HEAVEN)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(WHEN BILLIE BEAT BOBBY)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(THE BROTHER FROM ANOTHER PLANET)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(A DAY WITHOUT A MEXICAN)
+			Actor(ABATEMARCO, TONY)
+	(ABATEMARCO, TONY)(AARON, CAROLINE)(A DAY WITHOUT A MEXICAN)(1)(0)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(PUMPKIN)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(ALONG CAME POLLY)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(OUR FAMILY WEDDING)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(ANYWHERE BUT HERE)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(SURVEILLANCE)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(DECONSTRUCTING HARRY)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(21 JUMP STREET)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(FINDING BLISS)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(HUSBANDS AND WIVES)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(NANCY DREW)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(JOE DIRT)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(22 JUMP STREET)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(JUST LIKE HEAVEN)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(HOUSE ARREST)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(PRIMARY COLORS)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(SLEEPLESS IN SEATTLE)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(AMY'S ORGASM)
+			Actor(AARON, CAROLINE)
+Selfloop
+		Movies(WHAT PLANET ARE YOU FROM?)
+			Actor(AARON, CAROLINE)
+Selfloop
+
+	Current(ABATEMARCO, TONY)
+	Size of movies(11)
+	(AARON, CAROLINE)(A DAY WITHOUT A MEXICAN)(1)(1)
+		Movies(SACRIFICE)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(AUGGIE ROSE)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(MY ONE AND ONLY)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(ALL OVER THE GUY)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(CLOCKSTOPPERS)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(SLEEPING WITH THE ENEMY)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(A DAY WITHOUT A MEXICAN)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+			Actor(AARON, CAROLINE)
+no update!
+		Movies(MUSIC FROM ANOTHER ROOM)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(TOWN & COUNTRY)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(SUBTERFUGE)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+		Movies(I AM SAM)
+			Actor(ABATEMARCO, TONY)
+Selfloop
+	Findpath success!
+
+	Start getPath:
+
+Actor:(ABATEMARCO, TONY)
+done:(1)
+prev:(AARON, CAROLINE)
+edge:(A DAY WITHOUT A MEXICAN)
+
+			 count = 0
+	Getpath success!
+
+	Start output:
+		sizeof stack: 4
+	Path:
+		(AARON, CAROLINE)
+		(A DAY WITHOUT A MEXICAN)
+		(2004)
+		(ABATEMARCO, TONY)
+	Finished output!
+
+
+Finished findPath!
+
+#of pairs in file: 0
+---------------------------------------------

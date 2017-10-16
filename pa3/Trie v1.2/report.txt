@@ -1,0 +1,441 @@
+[Executed at: Sat Aug 20 21:50:29 PDT 2016] 
+
+**********************************************************************************************
+ALL FILE NAMES MUST MATCH THE WRITEUP AND THE SUBMISSION SCRIPT 
+ALL FILE NAMES MUST MATCH THE WRITEUP AND THE SUBMISSION SCRIPT 
+ALL FILE NAMES MUST MATCH THE WRITEUP AND THE SUBMISSION SCRIPT 
+ALL FILE NAMES MUST MATCH THE WRITEUP AND THE SUBMISSION SCRIPT 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+**********************************************************************************************
+NOTE: Even if your submission checks fail, if you turn in at this screen, files are still collected. 
+util.hpp exists in directory 
+util.cpp exists in directory 
+DictionaryBST.hpp exists in directory 
+DictionaryBST.cpp exists in directory 
+DictionaryHashtable.hpp exists in directory 
+DictionaryHashtable.cpp exists in directory 
+DictionaryTrie.hpp exists in directory 
+DictionaryTrie.cpp exists in directory 
+MISSING REQUIRED FILE: FinalReport.pdf . Exiting 
+benchdict.cpp exists in directory 
+Checking compilation of submission code...Code compiles!! 
+Running loading and timing tests... 
+Loading your dictionary... 
+Loading dictionary... success! Time taken to load dictionary: 4193710980 nanoseconds, or roughly 4.19371 seconds! 
+Words in vector: and a at are as all about and the an at the 
+Words in vector: be but by bart because back been by the between become 
+Words in vector: can come could child cant call couldnt country case company 
+Words in vector: do dont did do nt day down didnt did nt doing during 
+Words in vector: even every each eye ever end everything enough ets em 
+Words in vector: for from for the first from the find for a feel family few 
+Words in vector: go get got going good give going to great group gasps 
+Words in vector: have he his her homer him how here hes has 
+Words in vector: is in i it im in the if its into in a 
+Words in vector: just job join jen jake julian just a jason jax jack 
+Words in vector: know kids keep kind krusty kind of kid kill knew killed 
+Words in vector: like look lisa lets life last let leave little lot 
+Words in vector: my me make marge more man many may mean much 
+Words in vector: not now no new need never night number next national 
+Words in vector: of on of the or on the one out other our of a 
+Words in vector: people put problem place part play program point provide power 
+Words in vector: question quite quickly quality questions quimby quick quiet quarter qex 
+Words in vector: right really run room real remember read result research reason 
+Words in vector: say she so see some simpson should still school something 
+Words in vector: the to that this they their to the thats think there 
+Words in vector: up use us under until understand united states um up to used to 
+Words in vector: very voice value view various victor visit vote violence victim 
+Words in vector: with was we what who would will when which want 
+Words in vector: xpage xander x xiv xi xii xv xiii xanders xvii 
+Words in vector: you youre your year you know yeah youve yes youll years 
+Words in vector: zu zander zijn zone zack zelda zach zij zaius zum 
+Loading reference dictionary... 
+Loading dictionary... success! Time taken to load dictionary: 6557394140 nanoseconds, or roughly 6.55739 seconds! 
+Checking letter a... 
+Reference word: "and" || Your word: "and"... MATCH! 
+Reference word: "a" || Your word: "a"... MATCH! 
+Reference word: "at" || Your word: "at"... MATCH! 
+Reference word: "are" || Your word: "are"... MATCH! 
+Reference word: "as" || Your word: "as"... MATCH! 
+Reference word: "all" || Your word: "all"... MATCH! 
+Reference word: "about" || Your word: "about"... MATCH! 
+Reference word: "and the" || Your word: "and the"... MATCH! 
+Reference word: "an" || Your word: "an"... MATCH! 
+Reference word: "at the" || Your word: "at the"... MATCH! 
+Checking letter b... 
+Reference word: "be" || Your word: "be"... MATCH! 
+Reference word: "but" || Your word: "but"... MATCH! 
+Reference word: "by" || Your word: "by"... MATCH! 
+Reference word: "bart" || Your word: "bart"... MATCH! 
+Reference word: "because" || Your word: "because"... MATCH! 
+Reference word: "back" || Your word: "back"... MATCH! 
+Reference word: "been" || Your word: "been"... MATCH! 
+Reference word: "by the" || Your word: "by the"... MATCH! 
+Reference word: "between" || Your word: "between"... MATCH! 
+Reference word: "become" || Your word: "become"... MATCH! 
+Checking letter c... 
+Reference word: "can" || Your word: "can"... MATCH! 
+Reference word: "come" || Your word: "come"... MATCH! 
+Reference word: "could" || Your word: "could"... MATCH! 
+Reference word: "child" || Your word: "child"... MATCH! 
+Reference word: "cant" || Your word: "cant"... MATCH! 
+Reference word: "call" || Your word: "call"... MATCH! 
+Reference word: "couldnt" || Your word: "couldnt"... MATCH! 
+Reference word: "country" || Your word: "country"... MATCH! 
+Reference word: "case" || Your word: "case"... MATCH! 
+Reference word: "company" || Your word: "company"... MATCH! 
+Checking letter d... 
+Reference word: "do" || Your word: "do"... MATCH! 
+Reference word: "dont" || Your word: "dont"... MATCH! 
+Reference word: "did" || Your word: "did"... MATCH! 
+Reference word: "do nt" || Your word: "do nt"... MATCH! 
+Reference word: "day" || Your word: "day"... MATCH! 
+Reference word: "down" || Your word: "down"... MATCH! 
+Reference word: "didnt" || Your word: "didnt"... MATCH! 
+Reference word: "did nt" || Your word: "did nt"... MATCH! 
+Reference word: "doing" || Your word: "doing"... MATCH! 
+Reference word: "during" || Your word: "during"... MATCH! 
+Checking letter e... 
+Reference word: "even" || Your word: "even"... MATCH! 
+Reference word: "every" || Your word: "every"... MATCH! 
+Reference word: "each" || Your word: "each"... MATCH! 
+Reference word: "eye" || Your word: "eye"... MATCH! 
+Reference word: "ever" || Your word: "ever"... MATCH! 
+Reference word: "end" || Your word: "end"... MATCH! 
+Reference word: "everything" || Your word: "everything"... MATCH! 
+Reference word: "enough" || Your word: "enough"... MATCH! 
+Reference word: "ets" || Your word: "ets"... MATCH! 
+Reference word: "em" || Your word: "em"... MATCH! 
+Checking letter f... 
+Reference word: "for" || Your word: "for"... MATCH! 
+Reference word: "from" || Your word: "from"... MATCH! 
+Reference word: "for the" || Your word: "for the"... MATCH! 
+Reference word: "first" || Your word: "first"... MATCH! 
+Reference word: "from the" || Your word: "from the"... MATCH! 
+Reference word: "find" || Your word: "find"... MATCH! 
+Reference word: "for a" || Your word: "for a"... MATCH! 
+Reference word: "feel" || Your word: "feel"... MATCH! 
+Reference word: "family" || Your word: "family"... MATCH! 
+Reference word: "few" || Your word: "few"... MATCH! 
+Checking letter g... 
+Reference word: "go" || Your word: "go"... MATCH! 
+Reference word: "get" || Your word: "get"... MATCH! 
+Reference word: "got" || Your word: "got"... MATCH! 
+Reference word: "going" || Your word: "going"... MATCH! 
+Reference word: "good" || Your word: "good"... MATCH! 
+Reference word: "give" || Your word: "give"... MATCH! 
+Reference word: "going to" || Your word: "going to"... MATCH! 
+Reference word: "great" || Your word: "great"... MATCH! 
+Reference word: "group" || Your word: "group"... MATCH! 
+Reference word: "gasps" || Your word: "gasps"... MATCH! 
+Checking letter h... 
+Reference word: "have" || Your word: "have"... MATCH! 
+Reference word: "he" || Your word: "he"... MATCH! 
+Reference word: "his" || Your word: "his"... MATCH! 
+Reference word: "her" || Your word: "her"... MATCH! 
+Reference word: "homer" || Your word: "homer"... MATCH! 
+Reference word: "him" || Your word: "him"... MATCH! 
+Reference word: "how" || Your word: "how"... MATCH! 
+Reference word: "here" || Your word: "here"... MATCH! 
+Reference word: "hes" || Your word: "hes"... MATCH! 
+Reference word: "has" || Your word: "has"... MATCH! 
+Checking letter i... 
+Reference word: "is" || Your word: "is"... MATCH! 
+Reference word: "in" || Your word: "in"... MATCH! 
+Reference word: "i" || Your word: "i"... MATCH! 
+Reference word: "it" || Your word: "it"... MATCH! 
+Reference word: "im" || Your word: "im"... MATCH! 
+Reference word: "in the" || Your word: "in the"... MATCH! 
+Reference word: "if" || Your word: "if"... MATCH! 
+Reference word: "its" || Your word: "its"... MATCH! 
+Reference word: "into" || Your word: "into"... MATCH! 
+Reference word: "in a" || Your word: "in a"... MATCH! 
+Checking letter j... 
+Reference word: "just" || Your word: "just"... MATCH! 
+Reference word: "job" || Your word: "job"... MATCH! 
+Reference word: "join" || Your word: "join"... MATCH! 
+Reference word: "jen" || Your word: "jen"... MATCH! 
+Reference word: "jake" || Your word: "jake"... MATCH! 
+Reference word: "julian" || Your word: "julian"... MATCH! 
+Reference word: "just a" || Your word: "just a"... MATCH! 
+Reference word: "jason" || Your word: "jason"... MATCH! 
+Reference word: "jax" || Your word: "jax"... MATCH! 
+Reference word: "jack" || Your word: "jack"... MATCH! 
+Checking letter k... 
+Reference word: "know" || Your word: "know"... MATCH! 
+Reference word: "kids" || Your word: "kids"... MATCH! 
+Reference word: "keep" || Your word: "keep"... MATCH! 
+Reference word: "kind" || Your word: "kind"... MATCH! 
+Reference word: "krusty" || Your word: "krusty"... MATCH! 
+Reference word: "kind of" || Your word: "kind of"... MATCH! 
+Reference word: "kid" || Your word: "kid"... MATCH! 
+Reference word: "kill" || Your word: "kill"... MATCH! 
+Reference word: "knew" || Your word: "knew"... MATCH! 
+Reference word: "killed" || Your word: "killed"... MATCH! 
+Checking letter l... 
+Reference word: "like" || Your word: "like"... MATCH! 
+Reference word: "look" || Your word: "look"... MATCH! 
+Reference word: "lisa" || Your word: "lisa"... MATCH! 
+Reference word: "lets" || Your word: "lets"... MATCH! 
+Reference word: "life" || Your word: "life"... MATCH! 
+Reference word: "last" || Your word: "last"... MATCH! 
+Reference word: "let" || Your word: "let"... MATCH! 
+Reference word: "leave" || Your word: "leave"... MATCH! 
+Reference word: "little" || Your word: "little"... MATCH! 
+Reference word: "lot" || Your word: "lot"... MATCH! 
+Checking letter m... 
+Reference word: "my" || Your word: "my"... MATCH! 
+Reference word: "me" || Your word: "me"... MATCH! 
+Reference word: "make" || Your word: "make"... MATCH! 
+Reference word: "marge" || Your word: "marge"... MATCH! 
+Reference word: "more" || Your word: "more"... MATCH! 
+Reference word: "man" || Your word: "man"... MATCH! 
+Reference word: "many" || Your word: "many"... MATCH! 
+Reference word: "may" || Your word: "may"... MATCH! 
+Reference word: "mean" || Your word: "mean"... MATCH! 
+Reference word: "much" || Your word: "much"... MATCH! 
+Checking letter n... 
+Reference word: "not" || Your word: "not"... MATCH! 
+Reference word: "now" || Your word: "now"... MATCH! 
+Reference word: "no" || Your word: "no"... MATCH! 
+Reference word: "new" || Your word: "new"... MATCH! 
+Reference word: "need" || Your word: "need"... MATCH! 
+Reference word: "never" || Your word: "never"... MATCH! 
+Reference word: "night" || Your word: "night"... MATCH! 
+Reference word: "number" || Your word: "number"... MATCH! 
+Reference word: "next" || Your word: "next"... MATCH! 
+Reference word: "national" || Your word: "national"... MATCH! 
+Checking letter o... 
+Reference word: "of" || Your word: "of"... MATCH! 
+Reference word: "on" || Your word: "on"... MATCH! 
+Reference word: "of the" || Your word: "of the"... MATCH! 
+Reference word: "or" || Your word: "or"... MATCH! 
+Reference word: "on the" || Your word: "on the"... MATCH! 
+Reference word: "one" || Your word: "one"... MATCH! 
+Reference word: "out" || Your word: "out"... MATCH! 
+Reference word: "other" || Your word: "other"... MATCH! 
+Reference word: "our" || Your word: "our"... MATCH! 
+Reference word: "of a" || Your word: "of a"... MATCH! 
+Checking letter p... 
+Reference word: "people" || Your word: "people"... MATCH! 
+Reference word: "put" || Your word: "put"... MATCH! 
+Reference word: "problem" || Your word: "problem"... MATCH! 
+Reference word: "place" || Your word: "place"... MATCH! 
+Reference word: "part" || Your word: "part"... MATCH! 
+Reference word: "play" || Your word: "play"... MATCH! 
+Reference word: "program" || Your word: "program"... MATCH! 
+Reference word: "point" || Your word: "point"... MATCH! 
+Reference word: "provide" || Your word: "provide"... MATCH! 
+Reference word: "power" || Your word: "power"... MATCH! 
+Checking letter q... 
+Reference word: "question" || Your word: "question"... MATCH! 
+Reference word: "quite" || Your word: "quite"... MATCH! 
+Reference word: "quickly" || Your word: "quickly"... MATCH! 
+Reference word: "quality" || Your word: "quality"... MATCH! 
+Reference word: "questions" || Your word: "questions"... MATCH! 
+Reference word: "quimby" || Your word: "quimby"... MATCH! 
+Reference word: "quick" || Your word: "quick"... MATCH! 
+Reference word: "quiet" || Your word: "quiet"... MATCH! 
+Reference word: "quarter" || Your word: "quarter"... MATCH! 
+Reference word: "qex" || Your word: "qex"... MATCH! 
+Checking letter r... 
+Reference word: "right" || Your word: "right"... MATCH! 
+Reference word: "really" || Your word: "really"... MATCH! 
+Reference word: "run" || Your word: "run"... MATCH! 
+Reference word: "room" || Your word: "room"... MATCH! 
+Reference word: "real" || Your word: "real"... MATCH! 
+Reference word: "remember" || Your word: "remember"... MATCH! 
+Reference word: "read" || Your word: "read"... MATCH! 
+Reference word: "result" || Your word: "result"... MATCH! 
+Reference word: "research" || Your word: "research"... MATCH! 
+Reference word: "reason" || Your word: "reason"... MATCH! 
+Checking letter s... 
+Reference word: "say" || Your word: "say"... MATCH! 
+Reference word: "she" || Your word: "she"... MATCH! 
+Reference word: "so" || Your word: "so"... MATCH! 
+Reference word: "see" || Your word: "see"... MATCH! 
+Reference word: "some" || Your word: "some"... MATCH! 
+Reference word: "simpson" || Your word: "simpson"... MATCH! 
+Reference word: "should" || Your word: "should"... MATCH! 
+Reference word: "still" || Your word: "still"... MATCH! 
+Reference word: "school" || Your word: "school"... MATCH! 
+Reference word: "something" || Your word: "something"... MATCH! 
+Checking letter t... 
+Reference word: "the" || Your word: "the"... MATCH! 
+Reference word: "to" || Your word: "to"... MATCH! 
+Reference word: "that" || Your word: "that"... MATCH! 
+Reference word: "this" || Your word: "this"... MATCH! 
+Reference word: "they" || Your word: "they"... MATCH! 
+Reference word: "their" || Your word: "their"... MATCH! 
+Reference word: "to the" || Your word: "to the"... MATCH! 
+Reference word: "thats" || Your word: "thats"... MATCH! 
+Reference word: "think" || Your word: "think"... MATCH! 
+Reference word: "there" || Your word: "there"... MATCH! 
+Checking letter u... 
+Reference word: "up" || Your word: "up"... MATCH! 
+Reference word: "use" || Your word: "use"... MATCH! 
+Reference word: "us" || Your word: "us"... MATCH! 
+Reference word: "under" || Your word: "under"... MATCH! 
+Reference word: "until" || Your word: "until"... MATCH! 
+Reference word: "understand" || Your word: "understand"... MATCH! 
+Reference word: "united states" || Your word: "united states"... MATCH! 
+Reference word: "um" || Your word: "um"... MATCH! 
+Reference word: "up to" || Your word: "up to"... MATCH! 
+Reference word: "used to" || Your word: "used to"... MATCH! 
+Checking letter v... 
+Reference word: "very" || Your word: "very"... MATCH! 
+Reference word: "voice" || Your word: "voice"... MATCH! 
+Reference word: "value" || Your word: "value"... MATCH! 
+Reference word: "view" || Your word: "view"... MATCH! 
+Reference word: "various" || Your word: "various"... MATCH! 
+Reference word: "victor" || Your word: "victor"... MATCH! 
+Reference word: "visit" || Your word: "visit"... MATCH! 
+Reference word: "vote" || Your word: "vote"... MATCH! 
+Reference word: "violence" || Your word: "violence"... MATCH! 
+Reference word: "victim" || Your word: "victim"... MATCH! 
+Checking letter w... 
+Reference word: "with" || Your word: "with"... MATCH! 
+Reference word: "was" || Your word: "was"... MATCH! 
+Reference word: "we" || Your word: "we"... MATCH! 
+Reference word: "what" || Your word: "what"... MATCH! 
+Reference word: "who" || Your word: "who"... MATCH! 
+Reference word: "would" || Your word: "would"... MATCH! 
+Reference word: "will" || Your word: "will"... MATCH! 
+Reference word: "when" || Your word: "when"... MATCH! 
+Reference word: "which" || Your word: "which"... MATCH! 
+Reference word: "want" || Your word: "want"... MATCH! 
+Checking letter x... 
+Reference word: "xpage" || Your word: "xpage"... MATCH! 
+Reference word: "xander" || Your word: "xander"... MATCH! 
+Reference word: "x" || Your word: "x"... MATCH! 
+Reference word: "xiv" || Your word: "xiv"... MATCH! 
+Reference word: "xi" || Your word: "xi"... MATCH! 
+Reference word: "xii" || Your word: "xii"... MATCH! 
+Reference word: "xv" || Your word: "xv"... MATCH! 
+Reference word: "xiii" || Your word: "xiii"... MATCH! 
+Reference word: "xanders" || Your word: "xanders"... MATCH! 
+Reference word: "xvii" || Your word: "xvii"... MATCH! 
+Checking letter y... 
+Reference word: "you" || Your word: "you"... MATCH! 
+Reference word: "youre" || Your word: "youre"... MATCH! 
+Reference word: "your" || Your word: "your"... MATCH! 
+Reference word: "year" || Your word: "year"... MATCH! 
+Reference word: "you know" || Your word: "you know"... MATCH! 
+Reference word: "yeah" || Your word: "yeah"... MATCH! 
+Reference word: "youve" || Your word: "youve"... MATCH! 
+Reference word: "yes" || Your word: "yes"... MATCH! 
+Reference word: "youll" || Your word: "youll"... MATCH! 
+Reference word: "years" || Your word: "years"... MATCH! 
+Checking letter z... 
+Reference word: "zu" || Your word: "zu"... MATCH! 
+Reference word: "zander" || Your word: "zander"... MATCH! 
+Reference word: "zijn" || Your word: "zijn"... MATCH! 
+Reference word: "zone" || Your word: "zone"... MATCH! 
+Reference word: "zack" || Your word: "zack"... MATCH! 
+Reference word: "zelda" || Your word: "zelda"... MATCH! 
+Reference word: "zach" || Your word: "zach"... MATCH! 
+Reference word: "zij" || Your word: "zij"... MATCH! 
+Reference word: "zaius" || Your word: "zaius"... MATCH! 
+Reference word: "zum" || Your word: "zum"... MATCH! 
+a: Your time = 54470164 || reference time = 613792332... Beat reference by a factor of 11 
+b: Your time = 29041079 || reference time = 332652867... Beat reference by a factor of 11 
+c: Your time = 34679746 || reference time = 391691938... Beat reference by a factor of 11 
+d: Your time = 20410996 || reference time = 220095430... Beat reference by a factor of 10 
+e: Your time = 17618657 || reference time = 191363412... Beat reference by a factor of 10 
+f: Your time = 24192842 || reference time = 260637873... Beat reference by a factor of 10 
+g: Your time = 13398964 || reference time = 144119628... Beat reference by a factor of 10 
+h: Your time = 23933448 || reference time = 252464337... Beat reference by a factor of 10 
+i: Your time = 25155712 || reference time = 276361006... Beat reference by a factor of 10 
+j: Your time = 5062265 || reference time = 55140884... Beat reference by a factor of 10 
+k: Your time = 3705716 || reference time = 36212832... Beat reference by a factor of 9 
+l: Your time = 16454504 || reference time = 177875072... Beat reference by a factor of 10 
+m: Your time = 26886424 || reference time = 299018714... Beat reference by a factor of 11 
+n: Your time = 13949871 || reference time = 149074072... Beat reference by a factor of 10 
+o: Your time = 27945911 || reference time = 302019077... Beat reference by a factor of 10 
+p: Your time = 29231690 || reference time = 338888821... Beat reference by a factor of 11 
+q: Your time = 1582297 || reference time = 14961065... Beat reference by a factor of 9 
+r: Your time = 20769535 || reference time = 221570129... Beat reference by a factor of 10 
+s: Your time = 48140550 || reference time = 566847465... Beat reference by a factor of 11 
+t: Your time = 52125453 || reference time = 641648556... Beat reference by a factor of 12 
+u: Your time = 7007099 || reference time = 72837063... Beat reference by a factor of 10 
+v: Your time = 5837385 || reference time = 59291928... Beat reference by a factor of 10 
+w: Your time = 25665467 || reference time = 278196912... Beat reference by a factor of 10 
+x: Your time = 143430 || reference time = 6634305... Beat reference by a factor of 46 
+y: Your time = 3864203 || reference time = 37725137... Beat reference by a factor of 9 
+z: Your time = 565460 || reference time = 4860406... Beat reference by a factor of 8 
+All letter test: Beat reference by a factor of 11 
+Checking compilation of benchdict... 
+g++ -std=c++11 -g -Wall -c -o util.o util.cpp 
+g++ -std=c++11 -g -Wall -c -o DictionaryTrie.o DictionaryTrie.cpp 
+g++ -std=c++11 -g -Wall -c -o DictionaryBST.o DictionaryBST.cpp 
+g++ -std=c++11 -g -Wall -c -o DictionaryHashtable.o DictionaryHashtable.cpp 
+g++ -std=c++11 -g -Wall -g benchdict.cpp util.o DictionaryTrie.o DictionaryBST.o DictionaryHashtable.o -o benchdict 
+benchdict compiles! 
+Checking benchdict... 
+Invalid argument! 
+Expect: min_size >= 6000 
+step_size >= 1000 
+num_iterations >= 15 
+Do these outputs look okay to you? 
+Repeating checkpoint tests because why not?... 
+Inserting into Dictionaries... 
+Inserting: "basketball"... PASSED! :D 
+Inserting: "asterisk"... PASSED! :D 
+Inserting: "basket"... PASSED! :D 
+Inserting: "application"... PASSED! :D 
+Inserting: "a"... PASSED! :D 
+Inserting: "app"... PASSED! :D 
+Inserting: "gugglebee"... PASSED! :D 
+Inserting: "waldos"... PASSED! :D 
+Inserting: "are you not entertained"... PASSED! :D 
+Inserting: "never gonna give you up"... PASSED! :D 
+Re-inserting elements that were just inserted into Dictionaries... 
+Inserting: "basketball"... Invalid freq! 
+PASSED! :D 
+Inserting: "asterisk"... Invalid freq! 
+PASSED! :D 
+Inserting: "basket"... Invalid freq! 
+PASSED! :D 
+Inserting: "application"... Invalid freq! 
+PASSED! :D 
+Inserting: "a"... Invalid freq! 
+PASSED! :D 
+Inserting: "app"... Invalid freq! 
+PASSED! :D 
+Inserting: "gugglebee"... Invalid freq! 
+PASSED! :D 
+Inserting: "waldos"... Invalid freq! 
+PASSED! :D 
+Inserting: "are you not entertained"... Invalid freq! 
+PASSED! :D 
+Inserting: "never gonna give you up"... Invalid freq! 
+PASSED! :D 
+Testing find for elements in Dictionaries... 
+Looking for "basketball"... FOUND! (PASSED! :D) 
+Looking for "asterisk"... FOUND! (PASSED! :D) 
+Looking for "basket"... FOUND! (PASSED! :D) 
+Looking for "application"... FOUND! (PASSED! :D) 
+Looking for "a"... FOUND! (PASSED! :D) 
+Looking for "app"... FOUND! (PASSED! :D) 
+Looking for "gugglebee"... FOUND! (PASSED! :D) 
+Looking for "waldos"... FOUND! (PASSED! :D) 
+Looking for "are you not entertained"... FOUND! (PASSED! :D) 
+Looking for "never gonna give you up"... FOUND! (PASSED! :D) 
+Testing find for elements NOT in Dictionaries... 
+Looking for "a job in industry"... NOT FOUND! (PASSED! :D) 
+Looking for "alaska"... NOT FOUND! (PASSED! :D) 
+Looking for "all your free time"... NOT FOUND! (PASSED! :D) 
+Looking for "applesauce"... NOT FOUND! (PASSED! :D) 
+Looking for "bask"... NOT FOUND! (PASSED! :D) 
+Looking for "carmen sandiego"... NOT FOUND! (PASSED! :D) 
+Looking for "entertained"... NOT FOUND! (PASSED! :D) 
+Looking for "guggle"... NOT FOUND! (PASSED! :D) 
+Looking for "jorel"... NOT FOUND! (PASSED! :D) 
+Looking for "never gonna"... NOT FOUND! (PASSED! :D) 
+Looking for "risk"... NOT FOUND! (PASSED! :D) 
+Looking for "waldo"... NOT FOUND! (PASSED! :D) 
+Tests complete! How did you do? 
+Submission checks complete. Did you pass? 

@@ -1,0 +1,251 @@
+#!/bin/bash
+
+make -s
+
+echo "Test 1 file: test"
+./compress test out
+./refcompress test refout 
+./uncompress out result
+diff -s test result
+echo -n '   ' Size of test:' ' 
+wc -c < test
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 1\n"
+rm out refout result
+
+
+echo "Test 2 file: checkpoint1.txt"
+./compress testInput/checkpoint1.txt out
+./refcompress testInput/checkpoint1.txt refout
+./uncompress out result
+diff -s testInput/checkpoint1.txt result
+echo -n '   ' Size of checkpoint1.txt:' ' 
+wc -c < testInput/checkpoint1.txt
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 2\n"
+rm out refout result
+
+
+echo "Test 3 file: checkpoint2.txt"
+./compress testInput/checkpoint2.txt out
+./refcompress testInput/checkpoint2.txt refout
+./uncompress out result
+diff -s testInput/checkpoint2.txt result
+echo -n '   ' Size of checkpoint2:' ' 
+wc -c < testInput/checkpoint2.txt
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 3\n"
+rm out refout result
+
+
+echo "Test 4 file: justABC"
+./compress testInput/justABC out
+./refcompress testInput/justABC refout
+./uncompress out result
+diff -s testInput/justABC result
+echo -n '   ' Size of justABC:' ' 
+wc -c < testInput/justABC
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 4\n"
+rm out refout result
+
+
+echo "Test 5 file: justA"
+./compress testInput/justA out
+./refcompress testInput/justA refout
+./uncompress out result
+diff -s testInput/justA result
+echo -n '   ' Size of justA:' ' 
+wc -c < testInput/justA
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 5\n"
+rm out refout result
+
+
+echo "Test 6 file: nonascii"
+./compress testInput/nonascii out
+./refcompress testInput/nonascii refout
+./uncompress out result
+diff -s testInput/nonascii result
+echo -n '   ' Size of nonascii:' ' 
+wc -c < testInput/nonascii
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 6\n"
+rm out refout result
+
+
+echo "Test 7 file: nonascii2"
+./compress testInput/nonascii2 out
+./refcompress testInput/nonascii2 refout
+./uncompress out result
+diff -s testInput/nonascii2 result
+echo -n '   ' Size of nonascii2:' ' 
+wc -c < testInput/nonascii2 
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 7\n"
+rm out refout result
+
+echo "Test 8 file: binary.dat"
+./compress testInput/binary.dat out
+./refcompress testInput/binary.dat refout
+./uncompress out result
+diff -s testInput/binary.dat result
+echo -n '   ' Size of binary:' ' 
+wc -c < testInput/binary.dat
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 8\n"
+rm out refout result
+
+echo "Test 9 file: lotsofA"
+./compress testInput/lotsofA out
+./refcompress testInput/lotsofA refout
+./uncompress out result
+diff -s testInput/lotsofA result
+echo -n '   ' Size of lotsofA:' ' 
+wc -c < testInput/lotsofA
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 9\n"
+rm out refout result
+
+echo "Test 10 file: kamasutra.txt"
+./compress testInput/kamasutra.txt out
+./refcompress testInput/kamasutra.txt refout
+./uncompress out result
+diff -s testInput/kamasutra.txt result
+echo -n '   ' Size of kamasutra:' ' 
+wc -c < testInput/kamasutra.txt
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 10\n"
+rm out refout result
+
+echo "Test 11 file: doriangray.txt"
+./compress testInput/doriangray.txt out
+./refcompress testInput/doriangray.txt refout
+./uncompress out result
+diff -s testInput/doriangray.txt result
+echo -n '   ' Size of doriangray:' ' 
+wc -c < testInput/doriangray.txt
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 11\n"
+rm out refout result
+
+echo "Test 12 file: skewed"
+./compress testInput/skewed out
+./refcompress testInput/skewed refout
+./uncompress out result
+diff -s testInput/skewed result
+echo -n '   ' Size of skewed:' ' 
+wc -c < testInput/skewed
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 12\n"
+rm out refout result
+
+echo "Test 13 file: warandpeace.txt"
+./compress testInput/warandpeace.txt out
+./refcompress testInput/warandpeace.txt refout
+./uncompress out result
+diff -s testInput/warandpeace.txt result
+echo -n '   ' Size of warandpeace:' ' 
+wc -c < testInput/warandpeace.txt
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 13\n"
+rm out refout result
+
+echo "Test 14 file: lotsofprideandprejudice.txt"
+./compress testInput/lotsofprideandprejudice.txt out
+./refcompress testInput/lotsofprideandprejudice.txt refout
+./uncompress out result
+diff -s testInput/lotsofprideandprejudice.txt result
+echo -n '   ' Size of lotsofprideandprejudice:' ' 
+wc -c < testInput/lotsofprideandprejudice.txt
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 14\n"
+rm out refout result
+
+
+echo "Test 15 file: empty"
+./compress testInput/empty out
+./refcompress testInput/empty refout
+./uncompress out result
+diff -s testInput/empty result
+echo -n '   ' Size of empty:' ' 
+wc -c < testInput/empty
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 15\n"
+rm out refout result
+
+
+echo "Test 16 file: pic.jpg"
+./compress pic.jpg out
+./refcompress pic.jpg refout
+./uncompress out result
+diff -s pic.jpg result
+echo -n '   ' Size of pic.jpg:' ' 
+wc -c < pic.jpg
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 16\n"
+rm out refout result
+
+echo "Test 17 file: manyA"
+./compress manyA out
+./refcompress manyA refout
+./uncompress out result
+diff -s manyA result
+echo -n '   ' Size of manyA:' ' 
+wc -c < manyA
+echo -n '   ' Size of out:' ' 
+wc -c < out
+echo -n '   ' Size of ref:' ' 
+wc -c < refout
+echo -e "Finished Test 17\n"
+rm out refout result
+
+make -s clean

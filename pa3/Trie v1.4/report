@@ -1,0 +1,441 @@
+[Executed at: Sat Aug 20 21:57:21 PDT 2016] 
+
+**********************************************************************************************
+ALL FILE NAMES MUST MATCH THE WRITEUP AND THE SUBMISSION SCRIPT 
+ALL FILE NAMES MUST MATCH THE WRITEUP AND THE SUBMISSION SCRIPT 
+ALL FILE NAMES MUST MATCH THE WRITEUP AND THE SUBMISSION SCRIPT 
+ALL FILE NAMES MUST MATCH THE WRITEUP AND THE SUBMISSION SCRIPT 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+MAKE SURE YOUR CODE COMPILES AND PASSES THE BASIC TESTS 
+**********************************************************************************************
+NOTE: Even if your submission checks fail, if you turn in at this screen, files are still collected. 
+util.hpp exists in directory 
+util.cpp exists in directory 
+DictionaryBST.hpp exists in directory 
+DictionaryBST.cpp exists in directory 
+DictionaryHashtable.hpp exists in directory 
+DictionaryHashtable.cpp exists in directory 
+DictionaryTrie.hpp exists in directory 
+DictionaryTrie.cpp exists in directory 
+MISSING REQUIRED FILE: FinalReport.pdf . Exiting 
+benchdict.cpp exists in directory 
+Checking compilation of submission code...Code compiles!! 
+Running loading and timing tests... 
+Loading your dictionary... 
+Loading dictionary... success! Time taken to load dictionary: 4226343091 nanoseconds, or roughly 4.22634 seconds! 
+Words in vector: and a at are as all about an any as a 
+Words in vector: be but by bart back by the between big begin before 
+Words in vector: can could child cant call couldnt country case ca nt children 
+Words in vector: do dont did do nt day down did nt during does different 
+Words in vector: even every each eye ever end everything enough ets em 
+Words in vector: for first find for a family few fact father four friend 
+Words in vector: go get got group gasps gotta guys getting game guy 
+Words in vector: have he his her him how here hes has had 
+Words in vector: is in i it im in the if its into in a 
+Words in vector: just job join jen jake just a jason jax jack just as 
+Words in vector: know kids kind krusty kind of kid kill knew killed knows 
+Words in vector: like look lisa lets life last let leave lot live 
+Words in vector: my me make marge more man many may much most 
+Words in vector: not now no new need never night number next national 
+Words in vector: of on or on the one out our of a only over 
+Words in vector: people put problem place part play power political part of pay 
+Words in vector: quite quickly quimby quick quiet quarter qex qau quand q 
+Words in vector: really run real read result research reason reach require raise 
+Words in vector: say she so see some should still school something shouldnt 
+Words in vector: the to that this they to the thats think take them 
+Words in vector: up use us under until understand united states um up to used to 
+Words in vector: very voice various victor vote victim very much video version village 
+Words in vector: with was we what who will when which want way 
+Words in vector: xpage xander x xiv xi xii xv xiii xanders xvii 
+Words in vector: you youre your year you know yeah youve yes youll years 
+Words in vector: zu zander zijn zone zack zelda zach zij zaius zum 
+Loading reference dictionary... 
+Loading dictionary... success! Time taken to load dictionary: 6486550941 nanoseconds, or roughly 6.48655 seconds! 
+Checking letter a... 
+Reference word: "and" || Your word: "and"... MATCH! 
+Reference word: "a" || Your word: "a"... MATCH! 
+Reference word: "at" || Your word: "at"... MATCH! 
+Reference word: "are" || Your word: "are"... MATCH! 
+Reference word: "as" || Your word: "as"... MATCH! 
+Reference word: "all" || Your word: "all"... MATCH! 
+Reference word: "about" || Your word: "about"... MATCH! 
+Reference word: "and the" || Your word: "an"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "an" || Your word: "any"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "at the" || Your word: "as a"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter b... 
+Reference word: "be" || Your word: "be"... MATCH! 
+Reference word: "but" || Your word: "but"... MATCH! 
+Reference word: "by" || Your word: "by"... MATCH! 
+Reference word: "bart" || Your word: "bart"... MATCH! 
+Reference word: "because" || Your word: "back"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "back" || Your word: "by the"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "been" || Your word: "between"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "by the" || Your word: "big"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "between" || Your word: "begin"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "become" || Your word: "before"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter c... 
+Reference word: "can" || Your word: "can"... MATCH! 
+Reference word: "come" || Your word: "could"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "could" || Your word: "child"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "child" || Your word: "cant"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "cant" || Your word: "call"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "call" || Your word: "couldnt"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "couldnt" || Your word: "country"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "country" || Your word: "case"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "case" || Your word: "ca nt"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "company" || Your word: "children"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter d... 
+Reference word: "do" || Your word: "do"... MATCH! 
+Reference word: "dont" || Your word: "dont"... MATCH! 
+Reference word: "did" || Your word: "did"... MATCH! 
+Reference word: "do nt" || Your word: "do nt"... MATCH! 
+Reference word: "day" || Your word: "day"... MATCH! 
+Reference word: "down" || Your word: "down"... MATCH! 
+Reference word: "didnt" || Your word: "did nt"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "did nt" || Your word: "during"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "doing" || Your word: "does"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "during" || Your word: "different"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter e... 
+Reference word: "even" || Your word: "even"... MATCH! 
+Reference word: "every" || Your word: "every"... MATCH! 
+Reference word: "each" || Your word: "each"... MATCH! 
+Reference word: "eye" || Your word: "eye"... MATCH! 
+Reference word: "ever" || Your word: "ever"... MATCH! 
+Reference word: "end" || Your word: "end"... MATCH! 
+Reference word: "everything" || Your word: "everything"... MATCH! 
+Reference word: "enough" || Your word: "enough"... MATCH! 
+Reference word: "ets" || Your word: "ets"... MATCH! 
+Reference word: "em" || Your word: "em"... MATCH! 
+Checking letter f... 
+Reference word: "for" || Your word: "for"... MATCH! 
+Reference word: "from" || Your word: "first"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "for the" || Your word: "find"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "first" || Your word: "for a"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "from the" || Your word: "family"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "find" || Your word: "few"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "for a" || Your word: "fact"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "feel" || Your word: "father"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "family" || Your word: "four"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "few" || Your word: "friend"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter g... 
+Reference word: "go" || Your word: "go"... MATCH! 
+Reference word: "get" || Your word: "get"... MATCH! 
+Reference word: "got" || Your word: "got"... MATCH! 
+Reference word: "going" || Your word: "group"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "good" || Your word: "gasps"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "give" || Your word: "gotta"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "going to" || Your word: "guys"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "great" || Your word: "getting"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "group" || Your word: "game"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "gasps" || Your word: "guy"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter h... 
+Reference word: "have" || Your word: "have"... MATCH! 
+Reference word: "he" || Your word: "he"... MATCH! 
+Reference word: "his" || Your word: "his"... MATCH! 
+Reference word: "her" || Your word: "her"... MATCH! 
+Reference word: "homer" || Your word: "him"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "him" || Your word: "how"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "how" || Your word: "here"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "here" || Your word: "hes"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "hes" || Your word: "has"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "has" || Your word: "had"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter i... 
+Reference word: "is" || Your word: "is"... MATCH! 
+Reference word: "in" || Your word: "in"... MATCH! 
+Reference word: "i" || Your word: "i"... MATCH! 
+Reference word: "it" || Your word: "it"... MATCH! 
+Reference word: "im" || Your word: "im"... MATCH! 
+Reference word: "in the" || Your word: "in the"... MATCH! 
+Reference word: "if" || Your word: "if"... MATCH! 
+Reference word: "its" || Your word: "its"... MATCH! 
+Reference word: "into" || Your word: "into"... MATCH! 
+Reference word: "in a" || Your word: "in a"... MATCH! 
+Checking letter j... 
+Reference word: "just" || Your word: "just"... MATCH! 
+Reference word: "job" || Your word: "job"... MATCH! 
+Reference word: "join" || Your word: "join"... MATCH! 
+Reference word: "jen" || Your word: "jen"... MATCH! 
+Reference word: "jake" || Your word: "jake"... MATCH! 
+Reference word: "julian" || Your word: "just a"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "just a" || Your word: "jason"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "jason" || Your word: "jax"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "jax" || Your word: "jack"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "jack" || Your word: "just as"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter k... 
+Reference word: "know" || Your word: "know"... MATCH! 
+Reference word: "kids" || Your word: "kids"... MATCH! 
+Reference word: "keep" || Your word: "kind"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "kind" || Your word: "krusty"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "krusty" || Your word: "kind of"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "kind of" || Your word: "kid"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "kid" || Your word: "kill"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "kill" || Your word: "knew"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "knew" || Your word: "killed"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "killed" || Your word: "knows"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter l... 
+Reference word: "like" || Your word: "like"... MATCH! 
+Reference word: "look" || Your word: "look"... MATCH! 
+Reference word: "lisa" || Your word: "lisa"... MATCH! 
+Reference word: "lets" || Your word: "lets"... MATCH! 
+Reference word: "life" || Your word: "life"... MATCH! 
+Reference word: "last" || Your word: "last"... MATCH! 
+Reference word: "let" || Your word: "let"... MATCH! 
+Reference word: "leave" || Your word: "leave"... MATCH! 
+Reference word: "little" || Your word: "lot"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "lot" || Your word: "live"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter m... 
+Reference word: "my" || Your word: "my"... MATCH! 
+Reference word: "me" || Your word: "me"... MATCH! 
+Reference word: "make" || Your word: "make"... MATCH! 
+Reference word: "marge" || Your word: "marge"... MATCH! 
+Reference word: "more" || Your word: "more"... MATCH! 
+Reference word: "man" || Your word: "man"... MATCH! 
+Reference word: "many" || Your word: "many"... MATCH! 
+Reference word: "may" || Your word: "may"... MATCH! 
+Reference word: "mean" || Your word: "much"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "much" || Your word: "most"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter n... 
+Reference word: "not" || Your word: "not"... MATCH! 
+Reference word: "now" || Your word: "now"... MATCH! 
+Reference word: "no" || Your word: "no"... MATCH! 
+Reference word: "new" || Your word: "new"... MATCH! 
+Reference word: "need" || Your word: "need"... MATCH! 
+Reference word: "never" || Your word: "never"... MATCH! 
+Reference word: "night" || Your word: "night"... MATCH! 
+Reference word: "number" || Your word: "number"... MATCH! 
+Reference word: "next" || Your word: "next"... MATCH! 
+Reference word: "national" || Your word: "national"... MATCH! 
+Checking letter o... 
+Reference word: "of" || Your word: "of"... MATCH! 
+Reference word: "on" || Your word: "on"... MATCH! 
+Reference word: "of the" || Your word: "or"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "or" || Your word: "on the"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "on the" || Your word: "one"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "one" || Your word: "out"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "out" || Your word: "our"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "other" || Your word: "of a"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "our" || Your word: "only"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "of a" || Your word: "over"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter p... 
+Reference word: "people" || Your word: "people"... MATCH! 
+Reference word: "put" || Your word: "put"... MATCH! 
+Reference word: "problem" || Your word: "problem"... MATCH! 
+Reference word: "place" || Your word: "place"... MATCH! 
+Reference word: "part" || Your word: "part"... MATCH! 
+Reference word: "play" || Your word: "play"... MATCH! 
+Reference word: "program" || Your word: "power"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "point" || Your word: "political"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "provide" || Your word: "part of"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "power" || Your word: "pay"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter q... 
+Reference word: "question" || Your word: "quite"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "quite" || Your word: "quickly"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "quickly" || Your word: "quimby"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "quality" || Your word: "quick"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "questions" || Your word: "quiet"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "quimby" || Your word: "quarter"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "quick" || Your word: "qex"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "quiet" || Your word: "qau"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "quarter" || Your word: "quand"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "qex" || Your word: "q"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter r... 
+Reference word: "right" || Your word: "really"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "really" || Your word: "run"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "run" || Your word: "real"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "room" || Your word: "read"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "real" || Your word: "result"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "remember" || Your word: "research"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "read" || Your word: "reason"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "result" || Your word: "reach"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "research" || Your word: "require"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "reason" || Your word: "raise"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter s... 
+Reference word: "say" || Your word: "say"... MATCH! 
+Reference word: "she" || Your word: "she"... MATCH! 
+Reference word: "so" || Your word: "so"... MATCH! 
+Reference word: "see" || Your word: "see"... MATCH! 
+Reference word: "some" || Your word: "some"... MATCH! 
+Reference word: "simpson" || Your word: "should"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "should" || Your word: "still"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "still" || Your word: "school"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "school" || Your word: "something"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "something" || Your word: "shouldnt"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter t... 
+Reference word: "the" || Your word: "the"... MATCH! 
+Reference word: "to" || Your word: "to"... MATCH! 
+Reference word: "that" || Your word: "that"... MATCH! 
+Reference word: "this" || Your word: "this"... MATCH! 
+Reference word: "they" || Your word: "they"... MATCH! 
+Reference word: "their" || Your word: "to the"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "to the" || Your word: "thats"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "thats" || Your word: "think"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "think" || Your word: "take"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "there" || Your word: "them"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter u... 
+Reference word: "up" || Your word: "up"... MATCH! 
+Reference word: "use" || Your word: "use"... MATCH! 
+Reference word: "us" || Your word: "us"... MATCH! 
+Reference word: "under" || Your word: "under"... MATCH! 
+Reference word: "until" || Your word: "until"... MATCH! 
+Reference word: "understand" || Your word: "understand"... MATCH! 
+Reference word: "united states" || Your word: "united states"... MATCH! 
+Reference word: "um" || Your word: "um"... MATCH! 
+Reference word: "up to" || Your word: "up to"... MATCH! 
+Reference word: "used to" || Your word: "used to"... MATCH! 
+Checking letter v... 
+Reference word: "very" || Your word: "very"... MATCH! 
+Reference word: "voice" || Your word: "voice"... MATCH! 
+Reference word: "value" || Your word: "various"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "view" || Your word: "victor"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "various" || Your word: "vote"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "victor" || Your word: "victim"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "visit" || Your word: "very much"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "vote" || Your word: "video"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "violence" || Your word: "version"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "victim" || Your word: "village"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter w... 
+Reference word: "with" || Your word: "with"... MATCH! 
+Reference word: "was" || Your word: "was"... MATCH! 
+Reference word: "we" || Your word: "we"... MATCH! 
+Reference word: "what" || Your word: "what"... MATCH! 
+Reference word: "who" || Your word: "who"... MATCH! 
+Reference word: "would" || Your word: "will"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "will" || Your word: "when"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "when" || Your word: "which"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "which" || Your word: "want"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Reference word: "want" || Your word: "way"... ERROR! Incorrect word in sequence found in words! (Note: Periods indicate empty string) 
+Checking letter x... 
+Reference word: "xpage" || Your word: "xpage"... MATCH! 
+Reference word: "xander" || Your word: "xander"... MATCH! 
+Reference word: "x" || Your word: "x"... MATCH! 
+Reference word: "xiv" || Your word: "xiv"... MATCH! 
+Reference word: "xi" || Your word: "xi"... MATCH! 
+Reference word: "xii" || Your word: "xii"... MATCH! 
+Reference word: "xv" || Your word: "xv"... MATCH! 
+Reference word: "xiii" || Your word: "xiii"... MATCH! 
+Reference word: "xanders" || Your word: "xanders"... MATCH! 
+Reference word: "xvii" || Your word: "xvii"... MATCH! 
+Checking letter y... 
+Reference word: "you" || Your word: "you"... MATCH! 
+Reference word: "youre" || Your word: "youre"... MATCH! 
+Reference word: "your" || Your word: "your"... MATCH! 
+Reference word: "year" || Your word: "year"... MATCH! 
+Reference word: "you know" || Your word: "you know"... MATCH! 
+Reference word: "yeah" || Your word: "yeah"... MATCH! 
+Reference word: "youve" || Your word: "youve"... MATCH! 
+Reference word: "yes" || Your word: "yes"... MATCH! 
+Reference word: "youll" || Your word: "youll"... MATCH! 
+Reference word: "years" || Your word: "years"... MATCH! 
+Checking letter z... 
+Reference word: "zu" || Your word: "zu"... MATCH! 
+Reference word: "zander" || Your word: "zander"... MATCH! 
+Reference word: "zijn" || Your word: "zijn"... MATCH! 
+Reference word: "zone" || Your word: "zone"... MATCH! 
+Reference word: "zack" || Your word: "zack"... MATCH! 
+Reference word: "zelda" || Your word: "zelda"... MATCH! 
+Reference word: "zach" || Your word: "zach"... MATCH! 
+Reference word: "zij" || Your word: "zij"... MATCH! 
+Reference word: "zaius" || Your word: "zaius"... MATCH! 
+Reference word: "zum" || Your word: "zum"... MATCH! 
+a: Your time = 209888 || reference time = 613797188... Beat reference by a factor of 2924 
+b: Your time = 152334 || reference time = 332173848... Beat reference by a factor of 2180 
+c: Your time = 166368 || reference time = 395728715... Beat reference by a factor of 2378 
+d: Your time = 161249 || reference time = 221809299... Beat reference by a factor of 1375 
+e: Your time = 190389 || reference time = 191533583... Beat reference by a factor of 1006 
+f: Your time = 151816 || reference time = 266605470... Beat reference by a factor of 1756 
+g: Your time = 161259 || reference time = 144189285... Beat reference by a factor of 894 
+h: Your time = 149551 || reference time = 255450304... Beat reference by a factor of 1708 
+i: Your time = 116149 || reference time = 285943693... Beat reference by a factor of 2461 
+j: Your time = 121393 || reference time = 55314410... Beat reference by a factor of 455 
+k: Your time = 116172 || reference time = 36281710... Beat reference by a factor of 312 
+l: Your time = 126625 || reference time = 178145420... Beat reference by a factor of 1406 
+m: Your time = 153609 || reference time = 298695146... Beat reference by a factor of 1944 
+n: Your time = 136321 || reference time = 148549864... Beat reference by a factor of 1089 
+o: Your time = 142713 || reference time = 302072218... Beat reference by a factor of 2116 
+p: Your time = 153474 || reference time = 330637639... Beat reference by a factor of 2154 
+q: Your time = 86424 || reference time = 14854973... Beat reference by a factor of 171 
+r: Your time = 132166 || reference time = 219872704... Beat reference by a factor of 1663 
+s: Your time = 173778 || reference time = 557722467... Beat reference by a factor of 3209 
+t: Your time = 171460 || reference time = 637667352... Beat reference by a factor of 3719 
+u: Your time = 118221 || reference time = 72557504... Beat reference by a factor of 613 
+v: Your time = 139214 || reference time = 59014982... Beat reference by a factor of 423 
+w: Your time = 142380 || reference time = 277722919... Beat reference by a factor of 1950 
+x: Your time = 41238 || reference time = 6618916... Beat reference by a factor of 160 
+y: Your time = 82195 || reference time = 37520096... Beat reference by a factor of 456 
+z: Your time = 76225 || reference time = 4813957... Beat reference by a factor of 63 
+All letter test: Beat reference by a factor of 1664 
+Checking compilation of benchdict... 
+g++ -std=c++11 -g -Wall -c -o util.o util.cpp 
+g++ -std=c++11 -g -Wall -c -o DictionaryTrie.o DictionaryTrie.cpp 
+g++ -std=c++11 -g -Wall -c -o DictionaryBST.o DictionaryBST.cpp 
+g++ -std=c++11 -g -Wall -c -o DictionaryHashtable.o DictionaryHashtable.cpp 
+g++ -std=c++11 -g -Wall -g benchdict.cpp util.o DictionaryTrie.o DictionaryBST.o DictionaryHashtable.o -o benchdict 
+benchdict compiles! 
+Checking benchdict... 
+Invalid argument! 
+Expect: min_size >= 6000 
+step_size >= 1000 
+num_iterations >= 15 
+Do these outputs look okay to you? 
+Repeating checkpoint tests because why not?... 
+Inserting into Dictionaries... 
+Inserting: "basketball"... PASSED! :D 
+Inserting: "asterisk"... PASSED! :D 
+Inserting: "basket"... PASSED! :D 
+Inserting: "application"... PASSED! :D 
+Inserting: "a"... PASSED! :D 
+Inserting: "app"... PASSED! :D 
+Inserting: "gugglebee"... PASSED! :D 
+Inserting: "waldos"... PASSED! :D 
+Inserting: "are you not entertained"... PASSED! :D 
+Inserting: "never gonna give you up"... PASSED! :D 
+Re-inserting elements that were just inserted into Dictionaries... 
+Inserting: "basketball"... Invalid freq! 
+PASSED! :D 
+Inserting: "asterisk"... Invalid freq! 
+PASSED! :D 
+Inserting: "basket"... Invalid freq! 
+PASSED! :D 
+Inserting: "application"... Invalid freq! 
+PASSED! :D 
+Inserting: "a"... Invalid freq! 
+PASSED! :D 
+Inserting: "app"... Invalid freq! 
+PASSED! :D 
+Inserting: "gugglebee"... Invalid freq! 
+PASSED! :D 
+Inserting: "waldos"... Invalid freq! 
+PASSED! :D 
+Inserting: "are you not entertained"... Invalid freq! 
+PASSED! :D 
+Inserting: "never gonna give you up"... Invalid freq! 
+PASSED! :D 
+Testing find for elements in Dictionaries... 
+Looking for "basketball"... FOUND! (PASSED! :D) 
+Looking for "asterisk"... FOUND! (PASSED! :D) 
+Looking for "basket"... FOUND! (PASSED! :D) 
+Looking for "application"... FOUND! (PASSED! :D) 
+Looking for "a"... FOUND! (PASSED! :D) 
+Looking for "app"... FOUND! (PASSED! :D) 
+Looking for "gugglebee"... FOUND! (PASSED! :D) 
+Looking for "waldos"... FOUND! (PASSED! :D) 
+Looking for "are you not entertained"... FOUND! (PASSED! :D) 
+Looking for "never gonna give you up"... FOUND! (PASSED! :D) 
+Testing find for elements NOT in Dictionaries... 
+Looking for "a job in industry"... NOT FOUND! (PASSED! :D) 
+Looking for "alaska"... NOT FOUND! (PASSED! :D) 
+Looking for "all your free time"... NOT FOUND! (PASSED! :D) 
+Looking for "applesauce"... NOT FOUND! (PASSED! :D) 
+Looking for "bask"... NOT FOUND! (PASSED! :D) 
+Looking for "carmen sandiego"... NOT FOUND! (PASSED! :D) 
+Looking for "entertained"... NOT FOUND! (PASSED! :D) 
+Looking for "guggle"... NOT FOUND! (PASSED! :D) 
+Looking for "jorel"... NOT FOUND! (PASSED! :D) 
+Looking for "never gonna"... NOT FOUND! (PASSED! :D) 
+Looking for "risk"... NOT FOUND! (PASSED! :D) 
+Looking for "waldo"... NOT FOUND! (PASSED! :D) 
+Tests complete! How did you do? 
+Submission checks complete. Did you pass? 

@@ -1,0 +1,9 @@
+﻿  HCTree.cpp
+c:\users\mrkit\onedrive\2016 summer\cse 100\pa2\pa2\hctree.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\mrkit\onedrive\2016 summer\cse 100\pa2\pa2\hctree.cpp(212): warning C4018: '<': signed/unsigned mismatch
+c:\users\mrkit\onedrive\2016 summer\cse 100\pa2\pa2\hctree.cpp(236): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  pa2.vcxproj -> C:\Users\mrkit\OneDrive\2016 SUMMER\CSE 100\pa2\Debug\pa2.exe
+  pa2.vcxproj -> C:\Users\mrkit\OneDrive\2016 SUMMER\CSE 100\pa2\Debug\pa2.pdb (Partial PDB)

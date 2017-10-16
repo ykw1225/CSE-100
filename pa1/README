@@ -1,0 +1,24 @@
+/*
+ * Name:  Chao Huang & Yeung Kit Wong
+ * Date:  AUG 5, 2016
+ * File:  README
+ */
+ 
+=========================== README PA1 =============================
+
+1. We are using a constant lvalue reference for parameter d in the 
+   constructor of BSTNode class because we want to make sure that
+   when we assign the value of data to the field of BSTNode object,
+   we will not change the original value of parameter.
+
+
+2. A.The dummy argument int for post-increment operator is used for
+     indicating that the increament is postfix increament not a prefix
+     increament because these two operator overload function have the
+     same function name.
+
+   B.For the pre-increment operator, we want to use the inremented
+     BSTIterator; while in the post increment operator case, we want
+     to use the BSTIterator before it gets incremented, therefore it
+     needs to make a copy of that BSTIterator instead of directly
+     using its reference.

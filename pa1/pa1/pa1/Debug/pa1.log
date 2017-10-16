@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\mrkit\onedrive\2016 summer\cse 100\pa1\pa1\pa1\main.cpp(91): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+c:\users\mrkit\onedrive\2016 summer\cse 100\pa1\pa1\pa1\bst.hpp(149): warning C4715: 'BST<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::insert': not all control paths return a value
+  pa1.vcxproj -> C:\Users\mrkit\OneDrive\2016 SUMMER\CSE 100\pa1\pa1\Debug\pa1.exe
+  pa1.vcxproj -> C:\Users\mrkit\OneDrive\2016 SUMMER\CSE 100\pa1\pa1\Debug\pa1.pdb (Partial PDB)
